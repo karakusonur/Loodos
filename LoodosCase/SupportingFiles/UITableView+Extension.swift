@@ -2,8 +2,7 @@
 //  UITableView+Extension.swift
 //  iddaa
 //
-//  Created by Fikri Can Cankurtaran on 1.02.2019.
-//  Copyright © 2019 Solid-ICT. All rights reserved.
+//  Created by Onur Karakuş on 25.12.2020.
 //
 
 import UIKit

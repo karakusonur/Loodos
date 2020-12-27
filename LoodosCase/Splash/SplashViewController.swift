@@ -41,15 +41,16 @@ class SplashViewController: UIViewController {
     
     private func goToHomePage(){
         
-    //    RCValues.loadDefaultValues()
-    //    RCValues.fetchRemoteConfig { [unowned self] (companyName) in
-    //        print(companyName)
-    //        self.messageLabel.text = companyName
+        RCValues.loadDefaultValues()
+        RCValues.fetchRemoteConfig { [unowned self] (loodosName) in
+            print(loodosName)
+            self.messageLabel.text = loodosName
             DispatchQueue.main.asyncAfter(deadline: .now() + 3.0) {
                 HUDHelper.hideHud()
                 self.goHome()
             }
         }
+    }
     
     
     func goHome() {

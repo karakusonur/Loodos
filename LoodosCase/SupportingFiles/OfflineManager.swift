@@ -2,8 +2,7 @@
 //  TAVOfflineManager.swift
 //  TAV
 //
-//  Created by Fikri Can Cankurtaran on 5.07.2018.
-//  Copyright © 2018 SOLID-ICT. All rights reserved.
+//  Created by Onur Karakuş on 25.12.2020.
 //
 
 import Foundation

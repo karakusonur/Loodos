@@ -3,4 +3,70 @@
    uuid = "A53E1C11-B22E-40C0-9787-8D9295CFC63E"
    type = "0"
    version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "EBD46E31-5247-4994-858D-F106760D2E8F"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoodosCase/SupportingFiles/RC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "26"
+            endingLineNumber = "26"
+            landmarkName = "fetchRemoteConfig(closure:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "EBD46E31-5247-4994-858D-F106760D2E8F - 8b6a9c815d1d620b"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static LoodosCase.RCValues.fetchRemoteConfig(closure: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "LoodosCase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nalanulusoy/Desktop/LoodosCase/LoodosCase/SupportingFiles/RC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "26"
+                  endingLineNumber = "26"
+                  offsetFromSymbolStart = "38">
+               </Location>
+               <Location
+                  uuid = "EBD46E31-5247-4994-858D-F106760D2E8F - 2785d2b5ab169df1"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (__C.FIRRemoteConfigFetchStatus, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static LoodosCase.RCValues.fetchRemoteConfig(closure: (Swift.String) -&gt; ()) -&gt; ()"
+                  moduleName = "LoodosCase"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nalanulusoy/Desktop/LoodosCase/LoodosCase/SupportingFiles/RC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "27"
+                  endingLineNumber = "27"
+                  offsetFromSymbolStart = "277">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "57D8BB4A-8AE2-4C42-8DE5-9F706603B087"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "LoodosCase/SupportingFiles/RC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
+            landmarkName = "fetchRemoteConfig(closure:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
 </Bucket>

@@ -2,8 +2,7 @@
 //  Reusable.swift
 //  AksamTv
 //
-//  Created by Nalan Ulusoy on 22.03.2020.
-//  Copyright © 2020 Nalan Ulusoy. All rights reserved.
+//  Created by Onur Karakuş on 25.12.2020.
 //
 
 import Foundation

@@ -15,8 +15,6 @@ class ApiRouter {
             .responseData { (response) in
                 switch response.result {
                 case .success(let value):
-                    
-                    print(value.base64EncodedString())
                     do {
                         let instance = try JSONDecoder().decode(decodingType, from: value)
                         completionHandler(nil, instance)
