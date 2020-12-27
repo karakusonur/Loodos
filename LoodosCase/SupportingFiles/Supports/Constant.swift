@@ -18,3 +18,13 @@ struct AppConstant {
         NSAttributedString.Key.font : UIFont(name: "Helvetica", size: 17)!,
         ]
 }
+
+struct Global {
+    struct Network {
+        static let baseUrl = "http://www.omdbapi.com"
+    }
+    struct App {
+        static let apiKey = "29235896"
+    }
+}
+

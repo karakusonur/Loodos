@@ -31,7 +31,6 @@
 		08609F4B2594FA0A008BBA40 /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F492594FA0A008BBA40 /* DetailViewController.swift */; };
 		08609F4C2594FA0A008BBA40 /* DetailViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08609F4A2594FA0A008BBA40 /* DetailViewController.xib */; };
 		08609F552594FA58008BBA40 /* Detail.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F542594FA58008BBA40 /* Detail.swift */; };
-		08609F6F259501D6008BBA40 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F6E259501D6008BBA40 /* Global.swift */; };
 		08609F72259502B6008BBA40 /* SearchRequestParameters.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F71259502B6008BBA40 /* SearchRequestParameters.swift */; };
 		08609F75259506F2008BBA40 /* Encodable+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F74259506F2008BBA40 /* Encodable+Extension.swift */; };
 		08609F7925950863008BBA40 /* SearchViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F7825950863008BBA40 /* SearchViewModel.swift */; };
@@ -42,6 +41,7 @@
 		08CFDA982598CF66000E0495 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08CFDA972598CF66000E0495 /* GoogleService-Info.plist */; };
 		08CFDAA22598D939000E0495 /* GTM-TRPPS2H.json in Resources */ = {isa = PBXBuildFile; fileRef = 08CFDAA12598D939000E0495 /* GTM-TRPPS2H.json */; };
 		08CFDAAA2598DCDF000E0495 /* GradiendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFDAA92598DCDF000E0495 /* GradiendView.swift */; };
+		08CFDAAE2599361F000E0495 /* AlertExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFDAAD2599361F000E0495 /* AlertExtension.swift */; };
 		505B3CDAB95F77DBEC177CB6 /* Pods_LoodosCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5814210F641F3097CFE07BF /* Pods_LoodosCase.framework */; };
 /* End PBXBuildFile section */
 
@@ -72,7 +72,6 @@
 		08609F492594FA0A008BBA40 /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
 		08609F4A2594FA0A008BBA40 /* DetailViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = DetailViewController.xib; sourceTree = "<group>"; };
 		08609F542594FA58008BBA40 /* Detail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Detail.swift; sourceTree = "<group>"; };
-		08609F6E259501D6008BBA40 /* Global.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Global.swift; sourceTree = "<group>"; };
 		08609F71259502B6008BBA40 /* SearchRequestParameters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchRequestParameters.swift; sourceTree = "<group>"; };
 		08609F74259506F2008BBA40 /* Encodable+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Encodable+Extension.swift"; sourceTree = "<group>"; };
 		08609F7825950863008BBA40 /* SearchViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewModel.swift; sourceTree = "<group>"; };
@@ -83,6 +82,7 @@
 		08CFDA972598CF66000E0495 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		08CFDAA12598D939000E0495 /* GTM-TRPPS2H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GTM-TRPPS2H.json"; sourceTree = "<group>"; };
 		08CFDAA92598DCDF000E0495 /* GradiendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradiendView.swift; sourceTree = "<group>"; };
+		08CFDAAD2599361F000E0495 /* AlertExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlertExtension.swift; sourceTree = "<group>"; };
 		0A20E40E56428540590F8724 /* Pods-LoodosCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosCase.debug.xcconfig"; path = "Target Support Files/Pods-LoodosCase/Pods-LoodosCase.debug.xcconfig"; sourceTree = "<group>"; };
 		B5814210F641F3097CFE07BF /* Pods_LoodosCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoodosCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE116E3C2ECEE0A47315409 /* Pods-LoodosCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosCase.release.xcconfig"; path = "Target Support Files/Pods-LoodosCase/Pods-LoodosCase.release.xcconfig"; sourceTree = "<group>"; };
@@ -232,6 +232,7 @@
 		08609F6D259501BC008BBA40 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
+				08CFDAB02599363A000E0495 /* Request */,
 				08CFDAA62598DC28000E0495 /* Supports */,
 				08CFDAA52598DBE3000E0495 /* Extension */,
 				08CFDAA42598DBBA000E0495 /* Protocol */,
@@ -280,6 +281,7 @@
 				08609F74259506F2008BBA40 /* Encodable+Extension.swift */,
 				08609F9125951229008BBA40 /* UITableView+Extension.swift */,
 				082C2BE52595544E0034F421 /* Utils.swift */,
+				08CFDAAD2599361F000E0495 /* AlertExtension.swift */,
 			);
 			path = Extension;
 			sourceTree = "<group>";
@@ -290,9 +292,6 @@
 				0856A0A725968BAA004D864F /* RC.swift */,
 				082C2BDF2595527E0034F421 /* Constant.swift */,
 				082C2BC1259549240034F421 /* HudHelper.swift */,
-				082C2B98259533130034F421 /* DetailRequest.swift */,
-				08609F71259502B6008BBA40 /* SearchRequestParameters.swift */,
-				08609F6E259501D6008BBA40 /* Global.swift */,
 				082C2BE2259553A80034F421 /* OfflineManager.swift */,
 			);
 			path = Supports;
@@ -304,6 +303,15 @@
 				08609ED22594CCFB008BBA40 /* AppDelegate.swift */,
 			);
 			path = App;
+			sourceTree = "<group>";
+		};
+		08CFDAB02599363A000E0495 /* Request */ = {
+			isa = PBXGroup;
+			children = (
+				08609F71259502B6008BBA40 /* SearchRequestParameters.swift */,
+				082C2B98259533130034F421 /* DetailRequest.swift */,
+			);
+			path = Request;
 			sourceTree = "<group>";
 		};
 		1A314E28128AFEEEEF064AB9 /* Frameworks */ = {
@@ -445,7 +453,6 @@
 				082C2BE3259553A80034F421 /* OfflineManager.swift in Sources */,
 				08609F3F2594F412008BBA40 /* APIRouter.swift in Sources */,
 				082C2BAE25953B790034F421 /* DetailViewModel.swift in Sources */,
-				08609F6F259501D6008BBA40 /* Global.swift in Sources */,
 				08609ED32594CCFB008BBA40 /* AppDelegate.swift in Sources */,
 				08609F75259506F2008BBA40 /* Encodable+Extension.swift in Sources */,
 				0856A0A825968BAB004D864F /* RC.swift in Sources */,
@@ -455,6 +462,7 @@
 				08609F402594F412008BBA40 /* RestError.swift in Sources */,
 				08609F4B2594FA0A008BBA40 /* DetailViewController.swift in Sources */,
 				08609F8A259511A0008BBA40 /* SearchTableViewCell.swift in Sources */,
+				08CFDAAE2599361F000E0495 /* AlertExtension.swift in Sources */,
 				08609F3D2594F412008BBA40 /* NetworkClient.swift in Sources */,
 				082C2BE02595527E0034F421 /* Constant.swift in Sources */,
 				082C2B99259533130034F421 /* DetailRequest.swift in Sources */,
