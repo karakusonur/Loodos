@@ -20,7 +20,6 @@
 		08609ED32594CCFB008BBA40 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609ED22594CCFB008BBA40 /* AppDelegate.swift */; };
 		08609EDC2594CCFF008BBA40 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 08609EDB2594CCFF008BBA40 /* Assets.xcassets */; };
 		08609EDF2594CCFF008BBA40 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 08609EDD2594CCFF008BBA40 /* LaunchScreen.storyboard */; };
-		08609EE82594CE2B008BBA40 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08609EE72594CE2B008BBA40 /* GoogleService-Info.plist */; };
 		08609F0B2594D855008BBA40 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F092594D855008BBA40 /* HomeViewController.swift */; };
 		08609F0C2594D855008BBA40 /* HomeViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08609F0A2594D855008BBA40 /* HomeViewController.xib */; };
 		08609F3D2594F412008BBA40 /* NetworkClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F382594F412008BBA40 /* NetworkClient.swift */; };
@@ -40,6 +39,9 @@
 		08609F8B259511A0008BBA40 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 08609F89259511A0008BBA40 /* SearchTableViewCell.xib */; };
 		08609F8F25951218008BBA40 /* Reusable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F8E25951218008BBA40 /* Reusable.swift */; };
 		08609F9225951229008BBA40 /* UITableView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08609F9125951229008BBA40 /* UITableView+Extension.swift */; };
+		08CFDA982598CF66000E0495 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 08CFDA972598CF66000E0495 /* GoogleService-Info.plist */; };
+		08CFDAA22598D939000E0495 /* GTM-TRPPS2H.json in Resources */ = {isa = PBXBuildFile; fileRef = 08CFDAA12598D939000E0495 /* GTM-TRPPS2H.json */; };
+		08CFDAAA2598DCDF000E0495 /* GradiendView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 08CFDAA92598DCDF000E0495 /* GradiendView.swift */; };
 		505B3CDAB95F77DBEC177CB6 /* Pods_LoodosCase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B5814210F641F3097CFE07BF /* Pods_LoodosCase.framework */; };
 /* End PBXBuildFile section */
 
@@ -59,7 +61,6 @@
 		08609EDB2594CCFF008BBA40 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		08609EDE2594CCFF008BBA40 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		08609EE02594CCFF008BBA40 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		08609EE72594CE2B008BBA40 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		08609F092594D855008BBA40 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		08609F0A2594D855008BBA40 /* HomeViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HomeViewController.xib; sourceTree = "<group>"; };
 		08609F382594F412008BBA40 /* NetworkClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NetworkClient.swift; sourceTree = "<group>"; };
@@ -79,6 +80,9 @@
 		08609F89259511A0008BBA40 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		08609F8E25951218008BBA40 /* Reusable.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reusable.swift; sourceTree = "<group>"; };
 		08609F9125951229008BBA40 /* UITableView+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UITableView+Extension.swift"; sourceTree = "<group>"; };
+		08CFDA972598CF66000E0495 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		08CFDAA12598D939000E0495 /* GTM-TRPPS2H.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = "GTM-TRPPS2H.json"; sourceTree = "<group>"; };
+		08CFDAA92598DCDF000E0495 /* GradiendView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GradiendView.swift; sourceTree = "<group>"; };
 		0A20E40E56428540590F8724 /* Pods-LoodosCase.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosCase.debug.xcconfig"; path = "Target Support Files/Pods-LoodosCase/Pods-LoodosCase.debug.xcconfig"; sourceTree = "<group>"; };
 		B5814210F641F3097CFE07BF /* Pods_LoodosCase.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LoodosCase.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BCE116E3C2ECEE0A47315409 /* Pods-LoodosCase.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-LoodosCase.release.xcconfig"; path = "Target Support Files/Pods-LoodosCase/Pods-LoodosCase.release.xcconfig"; sourceTree = "<group>"; };
@@ -143,17 +147,17 @@
 		08609ED12594CCFB008BBA40 /* LoodosCase */ = {
 			isa = PBXGroup;
 			children = (
-				082C2BD92595523C0034F421 /* Splash */,
+				08CFDAA72598DC54000E0495 /* App */,
 				08609F6D259501BC008BBA40 /* SupportingFiles */,
+				082C2BD92595523C0034F421 /* Splash */,
 				08609F472594F9EB008BBA40 /* Detail */,
 				08609F372594F3F9008BBA40 /* Network */,
 				08609F072594D831008BBA40 /* Home */,
-				08609ED22594CCFB008BBA40 /* AppDelegate.swift */,
 				08609EDB2594CCFF008BBA40 /* Assets.xcassets */,
 				08609EDD2594CCFF008BBA40 /* LaunchScreen.storyboard */,
 				082C2BD6259549F10034F421 /* play.gif */,
 				08609EE02594CCFF008BBA40 /* Info.plist */,
-				08609EE72594CE2B008BBA40 /* GoogleService-Info.plist */,
+				08CFDA972598CF66000E0495 /* GoogleService-Info.plist */,
 			);
 			path = LoodosCase;
 			sourceTree = "<group>";
@@ -228,17 +232,10 @@
 		08609F6D259501BC008BBA40 /* SupportingFiles */ = {
 			isa = PBXGroup;
 			children = (
-				082C2BE52595544E0034F421 /* Utils.swift */,
-				082C2BE2259553A80034F421 /* OfflineManager.swift */,
-				08609F9125951229008BBA40 /* UITableView+Extension.swift */,
-				08609F8E25951218008BBA40 /* Reusable.swift */,
-				08609F6E259501D6008BBA40 /* Global.swift */,
-				08609F71259502B6008BBA40 /* SearchRequestParameters.swift */,
-				08609F74259506F2008BBA40 /* Encodable+Extension.swift */,
-				082C2B98259533130034F421 /* DetailRequest.swift */,
-				082C2BC1259549240034F421 /* HudHelper.swift */,
-				082C2BDF2595527E0034F421 /* Constant.swift */,
-				0856A0A725968BAA004D864F /* RC.swift */,
+				08CFDAA62598DC28000E0495 /* Supports */,
+				08CFDAA52598DBE3000E0495 /* Extension */,
+				08CFDAA42598DBBA000E0495 /* Protocol */,
+				08CFDAA02598D939000E0495 /* Container */,
 			);
 			path = SupportingFiles;
 			sourceTree = "<group>";
@@ -258,6 +255,55 @@
 				08609F89259511A0008BBA40 /* SearchTableViewCell.xib */,
 			);
 			path = Cell;
+			sourceTree = "<group>";
+		};
+		08CFDAA02598D939000E0495 /* Container */ = {
+			isa = PBXGroup;
+			children = (
+				08CFDAA12598D939000E0495 /* GTM-TRPPS2H.json */,
+			);
+			path = Container;
+			sourceTree = "<group>";
+		};
+		08CFDAA42598DBBA000E0495 /* Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				08609F8E25951218008BBA40 /* Reusable.swift */,
+			);
+			path = Protocol;
+			sourceTree = "<group>";
+		};
+		08CFDAA52598DBE3000E0495 /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				08CFDAA92598DCDF000E0495 /* GradiendView.swift */,
+				08609F74259506F2008BBA40 /* Encodable+Extension.swift */,
+				08609F9125951229008BBA40 /* UITableView+Extension.swift */,
+				082C2BE52595544E0034F421 /* Utils.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
+		08CFDAA62598DC28000E0495 /* Supports */ = {
+			isa = PBXGroup;
+			children = (
+				0856A0A725968BAA004D864F /* RC.swift */,
+				082C2BDF2595527E0034F421 /* Constant.swift */,
+				082C2BC1259549240034F421 /* HudHelper.swift */,
+				082C2B98259533130034F421 /* DetailRequest.swift */,
+				08609F71259502B6008BBA40 /* SearchRequestParameters.swift */,
+				08609F6E259501D6008BBA40 /* Global.swift */,
+				082C2BE2259553A80034F421 /* OfflineManager.swift */,
+			);
+			path = Supports;
+			sourceTree = "<group>";
+		};
+		08CFDAA72598DC54000E0495 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				08609ED22594CCFB008BBA40 /* AppDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 		1A314E28128AFEEEEF064AB9 /* Frameworks */ = {
@@ -327,7 +373,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				08609EE82594CE2B008BBA40 /* GoogleService-Info.plist in Resources */,
+				08CFDAA22598D939000E0495 /* GTM-TRPPS2H.json in Resources */,
 				08609EDF2594CCFF008BBA40 /* LaunchScreen.storyboard in Resources */,
 				08609F4C2594FA0A008BBA40 /* DetailViewController.xib in Resources */,
 				082C2BDD259552590034F421 /* SplashViewController.xib in Resources */,
@@ -335,6 +381,7 @@
 				08609F0C2594D855008BBA40 /* HomeViewController.xib in Resources */,
 				082C2BD7259549F10034F421 /* play.gif in Resources */,
 				08609F8B259511A0008BBA40 /* SearchTableViewCell.xib in Resources */,
+				08CFDA982598CF66000E0495 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -391,6 +438,7 @@
 				08609F452594F676008BBA40 /* Search.swift in Sources */,
 				08609F72259502B6008BBA40 /* SearchRequestParameters.swift in Sources */,
 				082C2BC2259549240034F421 /* HudHelper.swift in Sources */,
+				08CFDAAA2598DCDF000E0495 /* GradiendView.swift in Sources */,
 				08609F7925950863008BBA40 /* SearchViewModel.swift in Sources */,
 				08609F3E2594F412008BBA40 /* RequestEnum.swift in Sources */,
 				08609F552594FA58008BBA40 /* Detail.swift in Sources */,
@@ -552,7 +600,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GA4SJUWXHH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LoodosCase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -572,7 +620,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = GA4SJUWXHH;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = LoodosCase/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

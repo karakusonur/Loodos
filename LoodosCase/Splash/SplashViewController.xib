@@ -15,7 +15,7 @@
             </connections>
         </placeholder>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
-        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
+        <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT" customClass="GradientView" customModule="LoodosCase" customModuleProvider="target">
             <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
@@ -33,6 +33,14 @@
                 <constraint firstItem="aSx-KF-Qxm" firstAttribute="top" secondItem="fnl-2z-Ty3" secondAttribute="top" constant="150" id="Vi2-Fc-jEr"/>
                 <constraint firstItem="aSx-KF-Qxm" firstAttribute="leading" secondItem="fnl-2z-Ty3" secondAttribute="leading" constant="20" id="tux-nm-XMi"/>
             </constraints>
+            <userDefinedRuntimeAttributes>
+                <userDefinedRuntimeAttribute type="color" keyPath="initialColor">
+                    <color key="value" red="0.36922770739999999" green="0.67724049090000005" blue="0.73726922269999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </userDefinedRuntimeAttribute>
+                <userDefinedRuntimeAttribute type="color" keyPath="finalColor">
+                    <color key="value" red="0.17270482509999999" green="0.17270482509999999" blue="0.17270482509999999" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                </userDefinedRuntimeAttribute>
+            </userDefinedRuntimeAttributes>
             <point key="canvasLocation" x="66.666666666666671" y="83.705357142857139"/>
         </view>
     </objects>

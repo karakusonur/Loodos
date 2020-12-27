@@ -5,11 +5,14 @@
 //  Created by Onur Karakuş on 24.12.2020.
 //
 
+// did_load
+
 import UIKit
 import Kingfisher
+import Firebase
 
 class DetailViewController: UIViewController {
-
+    
     @IBOutlet weak var ratingLabel: UILabel!
     @IBOutlet weak var genreLabel: UILabel!
     @IBOutlet weak var yearLabel: UILabel!
@@ -23,7 +26,6 @@ class DetailViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
         request()
     }
     
@@ -31,6 +33,7 @@ class DetailViewController: UIViewController {
         viewModel.detailRequest(text: movieText) { [weak self] details in
             guard let self = self else { return }
             self.setValues(detail: details)
+            self.setAnalytics(values: details)
         }
     }
     
@@ -54,5 +57,14 @@ class DetailViewController: UIViewController {
                                     })
         }
         
+    }
+    
+    func setAnalytics(values:DetailModel) {
+        Analytics.logEvent("did_load", parameters: [
+            "detail_image":"\(values.image ?? "")",
+            "detail_actors" : "\(values.actors ?? "")",
+            "detail_title": "\(values.title ?? "")"
+            
+        ])
     }
 }

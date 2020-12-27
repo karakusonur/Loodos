@@ -25,6 +25,7 @@
                     <subviews>
                         <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Film Adı Giriniz" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="qfR-hk-6zz">
                             <rect key="frame" x="45" y="35" width="354" height="30"/>
+                            <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                             <fontDescription key="fontDescription" type="system" pointSize="14"/>
                             <textInputTraits key="textInputTraits"/>
                             <connections>
@@ -47,7 +48,7 @@
                             </constraints>
                         </view>
                     </subviews>
-                    <color key="backgroundColor" systemColor="systemPinkColor"/>
+                    <color key="backgroundColor" red="0.36922770739999999" green="0.67724049090000005" blue="0.73726922269999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
                     <constraints>
                         <constraint firstItem="qfR-hk-6zz" firstAttribute="leading" secondItem="K66-Kl-0vS" secondAttribute="trailing" constant="5" id="3kS-73-wS4"/>
                         <constraint firstItem="qfR-hk-6zz" firstAttribute="top" secondItem="K66-Kl-0vS" secondAttribute="top" id="K83-M0-CK9"/>
@@ -60,6 +61,14 @@
                         <constraint firstItem="Vxk-dP-naV" firstAttribute="leading" secondItem="K66-Kl-0vS" secondAttribute="trailing" constant="5" id="lsc-yL-rcR"/>
                         <constraint firstItem="Vxk-dP-naV" firstAttribute="top" secondItem="qfR-hk-6zz" secondAttribute="bottom" id="vnh-sM-YZC"/>
                     </constraints>
+                    <userDefinedRuntimeAttributes>
+                        <userDefinedRuntimeAttribute type="color" keyPath="initialColor">
+                            <color key="value" red="0.36922770739999999" green="0.67724049090000005" blue="0.73726922269999995" alpha="1" colorSpace="custom" customColorSpace="displayP3"/>
+                        </userDefinedRuntimeAttribute>
+                        <userDefinedRuntimeAttribute type="color" keyPath="finalColor">
+                            <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </userDefinedRuntimeAttribute>
+                    </userDefinedRuntimeAttributes>
                 </view>
                 <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="sCh-hU-7aI">
                     <rect key="frame" x="0.0" y="80" width="414" height="782"/>
@@ -88,9 +97,6 @@
         <image name="ic_search" width="20" height="20"/>
         <systemColor name="systemBackgroundColor">
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-        </systemColor>
-        <systemColor name="systemPinkColor">
-            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -17,6 +17,7 @@ class HomeViewController: UIViewController , UITextFieldDelegate{
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        searchTextField.tintColor = .white
         registerCell()
     }
     
